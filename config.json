@@ -7,15 +7,15 @@
   "jwt_secret": "random generated",
   "token_expires_in": 48,
   "database": {
-    "type": "sqlite3",
-    "host": "",
-    "port": 0,
-    "user": "",
-    "password": "",
-    "name": "",
+    "type": "postgres",
+    "host": "drona.db.elephantsql.com",
+    "port": 5432,
+    "user": "lvafadar",
+    "password": "gstuj550MCkfrbjb3DLwJ9KPzCGoHg1x",
+    "name": "lvafadar",
     "db_file": "data\\data.db",
     "table_prefix": "x_",
-    "ssl_mode": ""
+    "ssl_mode": "require"
   },
   "scheme": {
     "https": false,
